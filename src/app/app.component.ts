@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'test';
 
   add (x: number, y: number): number {
-    return x + y;
+    let result = x + y;
+    return result;
   }
 }
